@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Death</title>
+    <style>
+      body {
+        background : url("https://www.vfxvoice.com/wp-content/uploads/2022/09/PIX-25-404147_0020_final.jpg" )
+
+      }
+    </style>  
+  </head>
+<body>
+  <audio autoplay hidden loop>
+    <source src="vecna_runnin_up.mp3">
+  </audio>
+  <button type="button"
+  onclick="document.getElementById('demo').innerHTML=Date()">
+  <h2>Check Your Death Time</h2></button>
+  <p id="demo"></p>
+  <button onclick="document.getElementById('myImage').src='https://us-tuna-sounds-images.voicemod.net/757a99c5-6707-450c-ba18-af7fee0f88e5-1658602464381.png'">You Found Something</button>
+
+  <button onclick="document.getElementById('myImage').src='https://media.tenor.com/xbvawNA0r2YAAAAM/stranger-things-clock.gif'">Switch On</button>
+ 
+  <script>
+    function play() {
+      var audio = document.getElementById("audio");
+      audio.play();
+    }
+  </script>
+
+  <input type="button" value="PLAY" onclick="play()">
+  <audio id="audio" src="Every_time_Vecna_said_Max(360p)_221106001124.mp3"></audio>
+  
+  <img id="myImage"
+  src="pic_bulboff.gif"
+  style="width:500px">
+
+  <button onclick="document.getElementById('myImage').src='https://cdn4.vectorstock.com/i/1000x1000/44/08/run-for-your-life-neon-signs-style-text-vector-41254408.jpg'">What can you do</button>
+  
+
+  
+  </body>  
+
+
+</body>
+  </html>
